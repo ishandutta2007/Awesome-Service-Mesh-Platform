@@ -42,49 +42,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[AWS App Mesh](https://aws.amazon.com/app-mesh/)**  
-
-  Managed service mesh from AWS that standardizes how services communicate across ECS, EKS, and EC2, with Envoy-based data plane and AWS-native integrations.
-
-
-
-- **[Tetrate Service Bridge](https://tetrate.io/)**  
-
-  Enterprise service mesh platform built on Istio, focused on multi-cluster, multi-tenancy, security, and operational simplicity for large organizations.
-
-
-
-- **[Solo.io Gloo Mesh](https://www.solo.io/)**  
-
-  Enterprise management and multi-cluster control plane for Istio (and related technologies), providing advanced traffic management, security, and observability.
-
-
-
-- **[Buoyant Enterprise / Buoyant Cloud](https://buoyant.io/)**  
-
-  Enterprise distribution and managed offering for Linkerd, adding support, security features, and operational tooling on top of the open-source mesh.
-
-
-
-- **[Kong Mesh / enterprise Kuma offerings](https://konghq.com/)**  
-
-  Enterprise service mesh based on Kuma, supporting Kubernetes and VMs with additional enterprise capabilities.
-
-
-
-- **[Other managed & enterprise meshes](https://istio.io/)**  
-
-  Cloud-provider managed Istio offerings, Red Hat OpenShift Service Mesh, and specialized commercial distributions that package open-source meshes with support and extras.
-
-
-
-- **[Commercial control planes & add-ons](https://www.solo.io/)**  
-
-  Platforms that layer policy, multi-cluster management, or observability on top of open-source service meshes.
-
-
+| Platform / SaaS Product | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[AWS App Mesh](https://aws.amazon.com/app-mesh/)** | Managed service mesh from AWS standardizing service communication across ECS, EKS, and EC2 using Envoy proxies. | **$0 / Free** (No charge for App Mesh service; pay only for underlying EC2/Fargate/EKS infrastructure) | **Free forever** for App Mesh control plane; underlying AWS resources eligible for AWS Free Tier (750 EC2 hours/mo or 750 Fargate vCPU-hours/mo for 12 months) |
+| **[Google Cloud Service Mesh](https://cloud.google.com/service-mesh)** | Google Cloud's managed Istio service mesh offering zero-trust security and observability across GKE and Cloud Run. | **$0.0006945 / client hour** (~$0.50 / client pod / month) | **90-day free trial** with **$300 in credits** for new Google Cloud accounts (usable across Cloud Service Mesh & GCP) |
+| **[Kong Konnect / Kong Mesh](https://konghq.com/kong-mesh)** | Enterprise SaaS management plane based on Kuma, supporting multi-cluster Kubernetes and VM microservices. | **$250 / month** (Konnect Plus starting tier; includes 1M requests/month + 2 hybrid gateways) | **30-day free trial** with full enterprise features and unlimited gateway/mesh instances (no credit card required) |
+| **[Buoyant Enterprise for Linkerd](https://buoyant.io/)** | Enterprise distribution and cloud management for Linkerd with security hardening and 24/7 SLA support. | **$0 / Free** for organizations with <50 employees; paid enterprise plans for 50+ employees | **Free forever** for organizations with <50 employees (unlimited production clusters/pods); free non-production testing for any team size |
+| **[HashiCorp HCP Consul](https://cloud.hashicorp.com/products/consul)** | Fully managed Consul service mesh on HashiCorp Cloud Platform for multi-cloud service discovery and mTLS segmentation. | **$0.027 / hour** (~$20 / month) for Development cluster tier; **$0.069 / hour** base + $0.03 / service-instance / hour for Standard tier | **$500 free trial credits** upon creating an HCP account (valid across HCP Consul clusters and services until exhausted) |
+| **[Tetrate Service Bridge / TSE](https://tetrate.io/)** | Enterprise multi-cluster Istio & Envoy management platform providing multi-cloud governance and zero-trust security. | **$0** (Tetrate Istio Distribution - TID); Enterprise packages starting at **$19,000 / year** (via AWS Marketplace) | **Free forever** for open-source Tetrate Istio Distribution (TID); **30-day evaluation trial** available for Tetrate Service Express |
+| **[Solo.io Gloo Mesh](https://www.solo.io/products/gloo-mesh/)** | Enterprise management plane and multi-cluster control plane for Istio, Envoy, and Cilium across hybrid cloud setups. | Enterprise starter contracts from **~$19,000 / year** (AWS Marketplace contract tier; customized node/cluster quotes) | **30-day evaluation trial license** key (available upon signup via Solo.io developer portal) |
+| **[Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-service-mesh)** | Enterprise Istio, Kiali, and Jaeger distribution built directly into Red Hat OpenShift Container Platform. | Included with OpenShift subscription (OpenShift starting tier **~$0.08 / vCPU hour** or **~$1,000 / node / year**) | **60-day free trial** of Red Hat OpenShift Container Platform (includes complete access to OpenShift Service Mesh features) |
 
 ## Open-Source GitHub Projects
 
